@@ -1,0 +1,24 @@
+open ubuntu terminal
+type the following command to set up the boost library:
+0/ sudo apt install google-perftools libgoogle-perftools-dev libboost-dev (if error shows, execute 'sudo apt-get update' first)
+
+For jumna++ install:
+type the following commands:
+1/ wget http://lotus.kuee.kyoto-u.ac.jp/nl-resource/jumanpp/jumanpp-1.02.tar.xz
+2/ tar xJvf jumanpp-1.02.tar.xz
+3/ cd jumanpp-1.02
+4/ ./configure
+5/ make
+6/ sudo make install
+
+For KNP install:
+type the following commands:
+1/ wget -O knp-4.20.tar.bz2 https://nlp.ist.i.kyoto-u.ac.jp/DLcounter/lime.cgi?down=https://nlp.ist.i.kyoto-u.ac.jp/nl-resource/knp/knp-4.20.tar.bz2&name=knp-4.20.tar.bz2
+2/ tar jxvf knp-4.20.tar.bz2
+3/ cd knp-4.20
+4/ ./configure
+5/ make
+6/ sudo make install
+
+To install pyknp package to use juman and knp:
+type pip install pyknp
